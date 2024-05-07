@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coffee-style.css">
+    <title>Panda's Blog</title>
+</head>
+<body>
+    <div class="coffee-header">
+        <img 
+            class="coffee-icon"
+            src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png" 
+            alt="coffee icon"
+        />
+        <h1 class="header-text">Coffee Masters</h1>
+    </div>
+    <div class="coffee-page">
+        <div class="coffee-entries">
+            <div class="order-info postit shadow">
+                <h2 class="items-header brown-text">ITEMS</h2>
+                <ul class="item-list">
+                    <li class="item-entry">
+                        <p class="item-amount">1x</p>
+                        <p class="item-name">Cappucino</p>
+                        <p class="item-price">$6.00</p>
+                        <div class="item-addons">
+                            <p class="add-text">Light Foam</p>
+                        </div>
+                    </li>
+                    <li class="item-entry">
+                        <p class="item-amount">1x</p>
+                        <p class="item-name">Cappucino</p>
+                        <p class="item-price">$7.90</p>
+                        <div class="item-addons">
+                            <p class="add-text">Almond Milk</p>
+                            <p class="add-text">Double Espresso Shot</p>
+                        </div>
+                    </li>
+                    <li class="item-entry">
+                        <p class="item-amount">1x</p>
+                        <p class="item-name">Croissant</p>
+                        <p class="item-price">$5.37</p>
+                        <div class="item-addons">
+                            <p class="add-text">Butter</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-input">
+                <div class="order-name example no-height postit shadow brown-text">
+                    <h2>NAME</h2>
+                    <label for="example1" class="input-label3"> Name for order </label>
+                    <div><input id="example1" class= "example-input2" type="text"></div>
+                </div>
+                <div class="payment-info example no-height postit shadow brown-text">
+                    <h2>PAYMENT</h2>
+                    <label for="example2" class="input-label2"> Card number </label>
+                    <div><input id="example2" class= "example-input2" type="text"></div>
+                    <label for="example3" class="input-label"> CCV number </label>
+                    <div><input id="example3" class= "example-input" type="text"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="order-totals">
+            <div class="subtotal">
+                <p class="s-text">Subtotal:</p>
+                <p class="s-amount">$19.27</p>
+            </div>
+            <div class="tax">
+                <p class="t-text">Tax:</p>
+                <p class="t-amount">$0.96</p>
+            </div>
+            <div class="total">
+                <p class="ttl-text">Total:</p>
+                <p class="ttl-amount">$20.23</p>
+            </div>
+        </div>
+        <div class="order-button">Place order</div>
+    </div>
+</body>
+</html>

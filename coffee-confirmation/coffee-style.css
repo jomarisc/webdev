@@ -1,0 +1,226 @@
+body{
+    background-color: rgb(238, 236, 235);
+}
+
+.coffee-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43281C;
+    color: #fbf2c0;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    height: 70px;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.coffee-icon {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.header-text {
+    padding-left: 5px;
+}
+
+.coffee-entries {
+    display: flex;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.coffee-entries h2 {
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.order-info {
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.postit{ 
+    background-color: #eee1d5;;
+}
+
+.shadow {
+    box-shadow: 2px 4px 3px rgb(0 0 0 / 0.2);
+}
+
+.brown-text{
+    color:#885A2D;
+}
+
+.items-header {
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.item-list {
+    list-style: none;
+    margin-left: -30px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.item-entry {
+    display: grid;
+    grid-template-areas: 
+    "amount item-name item-name item-name item-price"
+    ".      addons addons addons addons"
+    ;
+    border-bottom: 2px solid #e4c7af;
+}
+
+.item-entry:last-child{
+    border-bottom: none;
+}
+
+.item-amount {
+    grid-area: amount;
+    font-size: 16px;
+}
+
+.item-name {
+    grid-area: item-name;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-price {
+    grid-area: item-price;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-addons {
+    grid-area: addons;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.add-text {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: #B08968;
+}
+
+.user-input{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-name {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+.payment-info {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.example {
+    position: relative;
+    display: inline-block;
+}
+
+.example-input {
+    border-color: #B08968;
+    background-color: #eee1d5;
+    margin-top: 20px;
+    height: 25px;
+    width: max-content;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    display: flex;
+}
+.example-input2{
+    border-color: #B08968;
+    background-color: #eee1d5;
+    height: 25px;
+    width: 98%;
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.input-label {
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 40px;
+    top: 116px;
+}
+
+.input-label2{
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 40px;
+    top: 55px;
+}
+
+.input-label3{
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 40px;
+    top: 55px;
+}
+
+.order-totals {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 16;
+}
+
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.tax {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.total {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.order-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #deb993;
+    border-radius: 20px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
